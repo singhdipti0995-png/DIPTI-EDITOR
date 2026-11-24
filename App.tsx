@@ -1,13 +1,13 @@
 import { useCallback, useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'motion/react';
 import { CheckCircle2, X } from 'lucide-react';
-import { AiStudioWorkspace } from './components/editor/AiStudioWorkspace';
-import { EditorShell } from './components/editor/EditorShell';
-import { HomeScreen } from './components/editor/HomeScreen';
-import { PhotoEditorWorkspace } from './components/editor/PhotoEditorWorkspace';
-import { ProfileSettingsView } from './components/editor/ProfileSettingsView';
-import { SettingsModal } from './components/editor/SettingsModal';
-import { VideoEditorWorkspace } from './components/editor/VideoEditorWorkspace';
+import { AiStudioWorkspace } from './AiStudioWorkspace';
+import { EditorShell } from './EditorShell';
+import { HomeScreen } from './HomeScreen';
+import { PhotoEditorWorkspace } from './PhotoEditorWorkspace';
+import { ProfileSettingsView } from './ProfileSettingsView';
+import { SettingsModal } from './SettingsModal';
+import { VideoEditorWorkspace } from './VideoEditorWorkspace';
 import {
   DEFAULT_EDITOR_SETTINGS,
   DEFAULT_PROJECTS,
@@ -15,7 +15,7 @@ import {
   loadStoredProjects,
   saveEditorSettings,
   saveStoredProjects,
-} from './db/projectsStore';
+} from './projectsStore';
 import type {
   AiToolMode,
   EditorSettings,
