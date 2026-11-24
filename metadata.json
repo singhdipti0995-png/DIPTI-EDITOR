@@ -1,0 +1,8 @@
+{
+  "name": "My Smart Timetable",
+  "description": "Student timetable, study planner, exam countdown, and academic organizer with offline local storage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
