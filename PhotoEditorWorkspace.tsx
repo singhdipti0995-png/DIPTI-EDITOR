@@ -27,7 +27,7 @@ import {
   type FilterAdjustments,
   type PhotoToolMode,
   type StudioProject,
-} from "./editor";
+} from "./src/types/editor";
 
 interface PhotoEditorWorkspaceProps {
   initialTool: PhotoToolMode;
