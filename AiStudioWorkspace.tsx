@@ -17,7 +17,7 @@ import {
   loadImageElement,
   synthesizeGenerativeArtwork,
   type AiStyleId,
-} from '../../utils/imageProcessing';
+} from "./imageProcessing";
 import type { AiToolMode, SceneBlueprint, StudioProject } from '../../types/editor';
 
 interface AiStudioWorkspaceProps {
@@ -53,7 +53,7 @@ const PROMPT_MOTIFS = [
 export function AiStudioWorkspace({
   initialTool,
   activeImageUrl,
-  onSaveProject,
+  on SaveProject,
   onOpenInPhotoEditor,
   onNotify,
 }: AiStudioWorkspaceProps) {
