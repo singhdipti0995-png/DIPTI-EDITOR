@@ -23,7 +23,7 @@ import type {
   StudioProject,
   VideoToolMode,
   VideoTransitionId,
-} from '../../types/editor';
+} from "./src/types/editor";
 
 interface VideoEditorWorkspaceProps {
   initialTool: VideoToolMode;
