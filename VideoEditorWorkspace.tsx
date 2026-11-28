@@ -15,7 +15,6 @@ import {
   Upload,
   Volume2,
 } from 'lucide-react';
-import { AmbientMusicEngine, BUILT_IN_TRACKS } from '../../utils/audioEngine';
 import { loadImageElement } from "./imageProcessing";
 import type {
   CaptionCue,
