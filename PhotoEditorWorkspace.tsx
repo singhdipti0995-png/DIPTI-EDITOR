@@ -20,7 +20,7 @@ import {
   computeAutoEnhanceAdjustments,
   loadImageElement,
   removeBackgroundChroma,
-} from '../../utils/imageProcessing';
+} from "./imageProcessing";
 import {
   DEFAULT_ADJUSTMENTS,
   type EditorSettings,
