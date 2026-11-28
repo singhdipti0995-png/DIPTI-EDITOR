@@ -13,7 +13,7 @@ import {
   Wand2,
 } from 'lucide-react';
 import { motion } from 'motion/react';
-import { HERO_BANNER_IMAGE } from '../../db/projectsStore';
+import { HERO_BANNER_IMAGE } from "./projectsStore";
 import type {
   AiToolMode,
   PhotoToolMode,
