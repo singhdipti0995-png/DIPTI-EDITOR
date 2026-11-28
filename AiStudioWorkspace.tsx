@@ -53,7 +53,7 @@ const PROMPT_MOTIFS = [
 export function AiStudioWorkspace({
   initialTool,
   activeImageUrl,
-  on SaveProject,
+  onSaveProject,
   onOpenInPhotoEditor,
   onNotify,
 }: AiStudioWorkspaceProps) {
